@@ -1,0 +1,21 @@
+img[alt='star']{
+    background: var(--dark-blue);
+    border-radius: 50%;
+    padding: 1.5rem;
+    width: 5rem;
+    height: 5rem;
+}
+@media (max-width: 480px){
+    img[alt='star']{
+        padding: 1.2rem;
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+.ratingButtons{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*el selector submit esta en el index.css*/

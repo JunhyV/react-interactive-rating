@@ -1,0 +1,25 @@
+.ratingButton{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: var(--dark-blue);
+    border: none;
+    color: var(--gray);
+    font-weight: bold;
+}
+@media (max-width: 480px){
+    .ratingButton{
+        width: 4.2rem;
+        height: 4.2rem;
+    }
+}
+
+button:hover{
+    cursor: pointer;
+    background: var(--light-gray);
+    color: var(--white);
+}
+button:focus{
+    background: var(--orange);
+    color: var(--white);
+}

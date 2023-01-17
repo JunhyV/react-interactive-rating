@@ -1,0 +1,10 @@
+img[alt='thanks']{
+    width: 16rem;
+    height: 10rem;
+}
+.ratingBox{
+    padding:.5rem  1rem;
+    border-radius: 3rem;
+    color: var(--orange);
+    background: var(--dark-blue);
+}
